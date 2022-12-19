@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background: #ede8d7;
+}
+
+#app {
+  width: 1080px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Hide control */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
