@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Cell } from "../types/Cell";
+    import type { Cell } from "../types/cell-types";
     export let cell: Cell
    
     $: cellClass = cell ? `cell-size ${cell.old ? 'bg-primary' : cell.alive ? 'bg-secondary3' : 'bg-secondary5'}` : ''

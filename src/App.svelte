@@ -22,7 +22,6 @@
 
   function populateBoard() {
     board.populateCells()
-    console.log("Hello")
   }
 </script>
 

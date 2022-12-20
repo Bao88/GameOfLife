@@ -1,6 +1,6 @@
 <script lang="ts">
 import CellComponent from "./CellComponent.svelte";
-import { Cell } from "../types/Cell"
+import { Cell } from "../types/cell-types"
 import { generation, started, clear } from "../stores/store";
 
 export let x: number = 50
